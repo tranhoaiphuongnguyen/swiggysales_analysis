@@ -1,0 +1,23 @@
+# ===============================
+# OS & editor files
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ===============================
+# credentials & secrets
+# ===============================
+*.env
+.env.*
+*.json
+!schema*.json
+
+# ===============================
+# BigQuery/local temporary files
+# ===============================
+*.log
+*.tmp
