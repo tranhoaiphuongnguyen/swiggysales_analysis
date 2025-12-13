@@ -52,7 +52,7 @@ Each dimension was populated using distinct values from the cleaned source data,
 
 ### 4. ERD Diagram – Star schema  
 
-An Entity Relationship Diagram (ERD) was created to visually represent the Star Schema, showing the central fact table connected to all supporting dimension tables. This diagram provides a clear structural overview of the analytical data model, available in `assets/erd.png`  [here](assets/)
+An Entity Relationship Diagram (ERD) was created to visually represent the Star Schema, showing the central fact table connected to all supporting dimension tables. This diagram provides a clear structural overview of the analytical data model, available in `assets/erd.png`  [here](../assets/erd.png)
 
 ### 5. KPI development  
 
