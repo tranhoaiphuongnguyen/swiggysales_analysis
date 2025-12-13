@@ -71,7 +71,7 @@ Restaurant performance strongly favored large, well-established chains, while cu
 
 *Monthly ordering patterns*  
 
-[Monthly order trend](assets/monthly_ordertrend.png) 
+![Monthly order trend](assets/monthly_ordertrend.png) 
 
 Monthly order volumes show a remarkably stable demand pattern across the year, with only moderate variation within a relatively narrow range of approximately 23,000 to 25,500 orders per month. January records the highest activity with 25,393 orders, generating ₹6.82 million in revenue. This is followed closely by May (25,188 orders, ₹6.79 million) and August (25,227 orders, ₹6.79 million), which suggests that food delivery demand on Swiggy is less influenced by extreme seasonality and more by consistent lifestyle-driven consumption.  
 
@@ -81,7 +81,7 @@ Importantly, no month shows a sharp decline, even the weakest month in the datas
 
 *Quarterly trends and revenue concentration*  
 
-[Quarterly order trend](assets/quarterly_ordertrend.png) 
+![Quarterly order trend](assets/quarterly_ordertrend.png) 
 
 Q2 stands out as the strongest period, recording 74,154 orders and ₹19.90 million in revenue, around 38% of the entire year’s revenue, making it the most critical quarter for business performance. This leadership suggests that the April–June window naturally aligns with higher food delivery activity in India. Factors such as warmer weather, more social gatherings, and fewer long holidays likely contribute to this peak. Q1 follows closely with 73,084 orders and ₹19.66 million, indicating strong and stable demand in the early part of the year.  
 
@@ -89,7 +89,7 @@ Q3, however, shows lower totals with 50,163 orders and ₹13.44 million in reven
 
 *Day-of-week ordering behaviour*  
 
-[Day-to-week order trend](assets/daytoweek_ordertrend.png) 
+![Day-to-week order trend](assets/daytoweek_ordertrend.png) 
 
 Weekends consistently outperform weekdays in both order volume and revenue, with Saturday leading at 28,933 orders (₹7.78 million) and Sunday following closely with 28,469 orders (₹7.64 million). Despite representing only two days, weekends contribute nearly 29% of all weekly orders, reinforcing the strong link between food delivery and leisure time, social meals, and more relaxed routines.
 
@@ -97,36 +97,36 @@ Weekday demand remains relatively steady, with Tuesday marking the lowest perfor
 
 ### Geographic performance across India
 
-[Top cities](assets/topcities.png)
+![Top cities](assets/topcities.png)
 
 Geographic analysis shows that Swiggy’s demand is heavily concentrated in major urban centers, with Tier 1 cities clearly leading. Bengaluru stands out as the top market, recording 20,072 orders, nearly double the next highest city, highlighting its role as Swiggy’s core demand hub, supported by a dense working population, high app adoption, and a strong restaurant ecosystem.
 
 Mumbai (10,507 orders) and Hyderabad (10,308 orders) form the second tier of high volume cities, followed closely by Jaipur (10,285), Lucknow (10,192), and New Delhi (10,191). These figures indicate that Swiggy’s demand is steadily expanding into fast-growing Tier 2 cities, beyond the traditional metro strongholds. The remaining cities in the top 10, Ahmedabad (10,175), Chandigarh (10,060), Kolkata (10,044), and Chennai (10,042), show remarkably consistent order volumes around 10,000, suggesting a balanced distribution of demand across multiple urban regions.  
 
-[Top states](assets/topstates.png)
+![Top states](assets/topstates.png)
 
 At the state level, revenue mirrors these urban trends. Karnataka leads with ₹5.46 million, largely driven by Bengaluru. Uttar Pradesh contributes ₹3.12 million, reflecting multiple high-volume cities such as Lucknow and Noida-adjacent areas. Telangana and Maharashtra each generate roughly ₹3.02 million, highlighting Hyderabad and Mumbai as stable revenue anchors. Delhi (₹2.83 million) and Gujarat (₹2.82 million) follow closely, while Punjab (₹2.80 million), West Bengal (₹2.66 million), Tamil Nadu (₹2.64 million), and Rajasthan (₹2.50 million) form a solid middle tier. Lower-revenue states, including Goa (₹1.54 million), Haryana (₹1.44 million), Himachal Pradesh (₹1.38 million), and Jammu & Kashmir (₹1.32 million), reflect smaller populations or limited urban density. The lowest contributors including Mizoram (₹0.82 million), Nagaland (₹0.58 million), and Sikkim (₹0.56 million), represent emerging or niche markets.
 
 
 ### Restaurant and cuisine insights  
 
-[Top restaurant](assets/toprestaurants.png)
+![Top restaurant](assets/toprestaurants.png)
 
 McDonald’s leads in order volume with 13,528 orders and ₹3.34 million in revenue, making it the most frequently chosen brand due to strong brand recognition, affordability, and broad appeal. KFC, however, achieves higher total revenue with 12,957 orders generating ₹4.25 million, indicating a higher average order value driven by combo meals, premium pricing, and larger portions. Burger King (7,115 orders, ₹1.90 million) and Pizza Hut (6,529 orders, ₹2.13 million) form a second tier, where Pizza Hut’s revenue suggests stronger per-order spending. Domino’s Pizza (5,489 orders, ₹1.83 million) shows steady demand with slightly lower spend per order. Mid-sized and niche brands, such as LunchBox – Meals and Thalis, Baskin Robbins, Faasos, Olio, and The Good Bowl, have smaller order volumes (2,600–4,700) and revenues, reflecting their focus on specialized or occasional offerings like desserts, premium meals, or regional cuisines.
 
 This shows that high order volume does not always translate into higher revenue; McDonald’s focuses on high volume, while KFC focuses on revenue per order.  
 
-[Top categories](assets/topcategories.png)
+![Top categories](assets/topcategories.png)
 
 At the category level, the Recommended section dominates with 24,097 orders and an average rating of 4.3, highlighting the influence of algorithm-driven suggestions. Desserts, Beverages, and Main Course categories all maintain high ratings (4.3–4.4), while Sweets achieve the highest rating at 4.5 despite modest orders (1,715), showing that desserts are highly satisfying but typically consumed as add-ons. Value-focused categories like McSaver Combos and Exclusive Deals maintain solid ratings and moderate order volumes, demonstrating the importance of discounts and bundles in driving engagement without sacrificing satisfaction.  
 
-[Top dishes](assets/dishes.png)
+![Top dishes](assets/topdishes.png)
 
 At the dish level, Choco Lava Cake tops the list with 303 orders and a 4.4 rating, confirming its popularity as an add-on. Rice dishes like Veg Fried Rice (269 orders) and Jeera Rice (233 orders) show consistent demand for affordable staples, while comfort foods such as French Fries, Margherita Pizza, and Butter Naan maintain strong orders and ratings above 4.2, reinforcing that familiar, low-risk items drive repeat purchases.
 
 ## Customer spending behaviour  
 
-[Price range orders](assets/pricerange_orders.png)
+![Price range orders](assets/pricerange_orders.png)
 
 The majority of orders fall into the ₹100–199 and ₹200–299 price ranges. The ₹100–199 bucket records the highest order volume with 56,189 orders, closely followed by the ₹200–299 range at 54,567 orders. These two segments make up the majority of transactions, showing that users are price-conscious and typically optimise spending for everyday meals rather than premium options.
 
