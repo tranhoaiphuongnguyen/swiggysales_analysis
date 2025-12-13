@@ -69,6 +69,6 @@ The raw columns were mapped into fact and dimension tables as follows:
 
 The central fact table contains 197,401 rows, representing each ordered dish.
 
-### ERD diagram  
+### ERD diagram
 
-![](assets/erd.png) 
+![](../assets/erd.png) 
