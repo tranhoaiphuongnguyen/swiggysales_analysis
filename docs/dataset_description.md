@@ -71,4 +71,4 @@ The central fact table contains 197,401 rows, representing each ordered dish.
 
 ### ERD diagram  
 
-[](assets/erd.png) 
+![](assets/erd.png) 
