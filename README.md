@@ -1,10 +1,11 @@
-# Swiggy sales performance analysis (India, Jan–Aug 2025)
+# Swiggy sales performance analysis (India, Jan-Aug 2025)
 
 **Timeframe:** January 2025 – August 2025  
 **Location:** India  
 **Dataset size:** 197,401 delivery transactions  
-**Tools:** Google BigQuery (SQL), Star schema, ERD modelling
+**Tools & techniques:** Google BigQuery (SQL), Star Schema, ERD Modelling
 
+Swiggy is one of India’s leading online food delivery platforms, connecting millions of customers with a wide network of restaurant partners and delivery executives across both metro and non-metro cities.  
 This project analyses Swiggy’s food-delivery transactions across India from January to August 2025 using SQL on Google BigQuery.
 The goal is to extract business insights that help Swiggy’s stakeholders understand:  
 
@@ -101,7 +102,7 @@ Weekday demand remains relatively steady, with Tuesday marking the lowest perfor
 
 Geographic analysis shows that Swiggy’s demand is heavily concentrated in major urban centers, with Tier 1 cities clearly leading. Bengaluru stands out as the top market, recording 20,072 orders, nearly double the next highest city, highlighting its role as Swiggy’s core demand hub, supported by a dense working population, high app adoption, and a strong restaurant ecosystem.
 
-Mumbai (10,507 orders) and Hyderabad (10,308 orders) form the second tier of high volume cities, followed closely by Jaipur (10,285), Lucknow (10,192), and New Delhi (10,191). These figures indicate that Swiggy’s demand is steadily expanding into fast-growing Tier 2 cities, beyond the traditional metro strongholds. The remaining cities in the top 10, Ahmedabad (10,175), Chandigarh (10,060), Kolkata (10,044), and Chennai (10,042), show remarkably consistent order volumes around 10,000, suggesting a balanced distribution of demand across multiple urban regions.  
+Mumbai (10,507 orders) and Hyderabad (10,308 orders) emerge as the next highest-volume markets after Bengaluru, reflecting their continued importance as established metro cities. Alongside these metros, cities such as Jaipur (10,285 orders), Lucknow (10,192 orders), and Ahmedabad (10,175 orders) also show comparable order volumes, signalling rising demand in fast-growing Tier 2 cities beyond the traditional metro strongholds. New Delhi (10,191 orders), while a Tier 1 city, records a similar level of activity, indicating a more evenly distributed demand across large urban centres. The remaining cities in the top 10, Ahmedabad (10,175 orders), Chandigarh (10,060 orders), Kolkata (10,044 orders), and Chennai (10,042 orders), show remarkably consistent order volumes around 10,000, suggesting a balanced distribution of demand across multiple urban regions.  
 
 ![Top states](assets/topstates.png)
 
@@ -112,7 +113,7 @@ At the state level, revenue mirrors these urban trends. Karnataka leads with ₹
 
 ![Top restaurant](assets/toprestaurants.png)
 
-McDonald’s leads in order volume with 13,528 orders and ₹3.34 million in revenue, making it the most frequently chosen brand due to strong brand recognition, affordability, and broad appeal. KFC, however, achieves higher total revenue with 12,957 orders generating ₹4.25 million, indicating a higher average order value driven by combo meals, premium pricing, and larger portions. Burger King (7,115 orders, ₹1.90 million) and Pizza Hut (6,529 orders, ₹2.13 million) form a second tier, where Pizza Hut’s revenue suggests stronger per-order spending. Domino’s Pizza (5,489 orders, ₹1.83 million) shows steady demand with slightly lower spend per order. Mid-sized and niche brands, such as LunchBox – Meals and Thalis, Baskin Robbins, Faasos, Olio, and The Good Bowl, have smaller order volumes (2,600–4,700) and revenues, reflecting their focus on specialized or occasional offerings like desserts, premium meals, or regional cuisines.
+McDonald’s leads in order volume with 13,528 orders and ₹3.34 million in revenue, making it the most frequently chosen brand due to strong brand recognition, affordability, and broad appeal. KFC, however, achieves higher total revenue with 12,957 orders generating ₹4.25 million, indicating a higher average order value driven by combo meals, premium pricing, and larger portions. Burger King (7,115 orders, ₹1.90 million) and Pizza Hut (6,529 orders, ₹2.13 million) form a second tier, where Pizza Hut’s revenue suggests stronger per-order spending. Domino’s Pizza (5,489 orders, ₹1.83 million) shows steady demand with slightly lower spend per order. Mid-sized and niche brands, such as LunchBox – Meals and Thalis, Baskin Robbins, Faasos, Olio, and The Good Bowl, have smaller order volumes (2,600–4,700) and revenues, reflecting their focus on specialised or occasional offerings like desserts, premium meals, or regional cuisines.
 
 This shows that high order volume does not always translate into higher revenue; McDonald’s focuses on high volume, while KFC focuses on revenue per order.  
 
@@ -144,7 +145,7 @@ At the lower end, orders under ₹100 account for 26,795 orders, reflecting budg
 - Weekends drive demand: Saturday (28.9k orders, ₹7.78M) and Sunday (28.5k, ₹7.64M) account for ~29% of weekly orders, while weekdays are steadier, rising toward Friday.  
 
 **Geography**
-- Demand is concentrated in Tier 1 cities, led by Bengaluru (20k orders). Mumbai, Hyderabad, Jaipur, Lucknow, and New Delhi form a second tier.  
+- Demand is concentrated in Tier 1 cities, led by Bengaluru (~20k orders). Mumbai, Hyderabad, and New Delhi follow as major metro markets, while Jaipur and Lucknow highlight growing demand in Tier 2 cities.    
 - Top 10 cities show consistent volumes (~10k), indicating balanced urban demand.  
 - Karnataka leads state revenue (₹5.46M), followed by UP, Telangana, Maharashtra, Delhi, and Gujarat; smaller states contribute less but represent emerging opportunities.  
 
@@ -160,17 +161,16 @@ At the lower end, orders under ₹100 account for 26,795 orders, reflecting budg
 
 ---
 
-## Strategy recommendations for Swiggy in India
+## Strategy recommendations for Swiggy in India  
+Swiggy should strengthen operations during weekends, as Saturdays and Sundays account for nearly 30% of weekly orders. In addition, ensuring sufficient delivery partners, restaurant staff, and customer support during these peak periods will improve service reliability and customer satisfaction. Besides this, weekend-focused promotions, meal bundles, and loyalty rewards can encourage customers to order more and increase basket size.  
 
-Swiggy should focus on strengthening operations during weekends and peak periods, as Saturday and Sunday consistently account for nearly 30% of weekly orders. In addition, ensuring adequate delivery fleet capacity, restaurant staffing, and customer support during these high-demand days will improve service reliability and customer satisfaction. Weekend-focused promotions, bundle offers, and loyalty incentives can further capitalize on leisure-driven ordering patterns and encourage higher basket sizes.
+Expanding into Tier 2 and emerging cities offers strong growth potential. Cities such as Jaipur, Lucknow, and Ahmedabad are seeing rising demand, and by partnering with local restaurants and running city-level marketing campaigns, Swiggy can attract new users and build long-term loyalty. Moreover, adapting menus and promotions to local preferences will make the platform more relevant to these customers.  
 
-Expansion into Tier 2 and emerging cities presents a significant growth opportunity. Cities such as Jaipur, Lucknow, and Ahmedabad are showing increasing demand, and targeted partnerships with local restaurants, combined with city-specific marketing campaigns, can help Swiggy capture new users while building long-term brand loyalty. Moreover, careful localization of offerings and promotions will ensure relevance and resonance with these audiences.
+Improving the restaurant mix can support better revenue performance. While high-volume brands like McDonald’s drive frequent orders, brands such as KFC show that higher-value orders generate more revenue. In addition, promoting add-ons, premium meals, and combo offers alongside popular everyday items can help increase average order value. At the same time, highlighting top-performing categories such as desserts and comfort food through in-app recommendations can encourage repeat orders.  
 
-Optimising the restaurant mix is another key lever for improving revenue efficiency. While high-volume restaurants like McDonald’s drive orders, brands such as KFC demonstrate that higher average order values can generate more revenue. In addition, promoting premium combos, add-ons, and high value dishes alongside popular staple items will balance accessibility with revenue growth. Leveraging insights from top-rated categories and dishes, such as desserts and comfort foods, through recommendations and in-app prompts can further increase basket size and repeat usage.
+Pricing should reflect how customers typically order. The ₹100–299 range remains important for everyday, price-sensitive purchases. Meanwhile, targeted offers can encourage customers to move towards mid-range and higher-value orders. Besides midweek discounts, premium bundles and occasional promotions can help spread demand more evenly across the week.  
 
-Pricing strategies should reflect customer behavior, focusing on the ₹100–299 segment for routine, price-conscious orders while offering targeted incentives for mid-range (₹300–499) and high-value (₹500+) orders. Besides midweek deals and social occasion promotions, premium bundle offerings can smooth demand across the week and encourage larger transactions.
-
-In addition, Swiggy should continue enhancing personalisation and recommendations. Algorithm-driven suggestions have proven effective in driving orders, and combining behavioral and geographic insights can make offers more relevant and increase average order value. At the same time, monitoring emerging states and cities with growing adoption will allow Swiggy to identify high potential markets early and gradually scale operations without overextending resources. These strategies aim to balance operational efficiency, revenue growth, and customer satisfaction across India’s diverse markets.  
+Finally, Swiggy should continue improving personalisation. Recommendations based on customer behaviour and location can make offers more relevant and drive higher spending. At the same time, closely tracking demand in new states and cities will allow Swiggy to scale carefully and focus resources on the most promising markets. 
 
 The following table summarises the key strategic focus areas and recommendations for Swiggy based on observed customer behavior, geographic trends, and revenue insights
 
